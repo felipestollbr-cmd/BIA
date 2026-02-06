@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "NeuroTrack-BIA",
+    "slug": "neurotrack-bia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.suzi.neurotrack"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0F172A"
+      },
+      "package": "com.suzi.neurotrack"
+    },
+    "scheme": "neurotrack",
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    }
+  }
+}
